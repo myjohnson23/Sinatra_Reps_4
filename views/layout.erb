@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sinatra_Reps_4</title>
+    <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/style/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>HALLOWEEN IS HERE!</h1>
+    </header>
+    <nav>
+      <div id="nav-home"><a href="/">HOME</a></div>
+      <div id="nav-home"><a href="/about">ABOUT</a></div>
+      <div id="nav-home"><a href="/contact">CONTACT</a></div>
+      <div id="nav-home"><a href="/photos">PHOTOS</a></div>
+      <div id="nav-home"><a href="/support">SUPPORT</a></div>
+    </nav>
+
+    <%= yield %>
+
+    <footer><p>&copy; 2015 Myron Johnson</p></footer>
+  </body>
+</html>
